@@ -1,0 +1,70 @@
+/*Estilo geral*/
+body{
+    font-family:Arial,sans-serif;
+    background-color: #f4f4f4f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    color: #000;
+    margin: 0;
+    padding: 0px;
+}
+/*Estilo para o titulo principal*/
+h1{
+    color: red;
+}
+input{
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    width: 300;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #45a049;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    max-width: 400px;
+}
+li{
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+button.remove{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button.remove:hover{
+    background-color: #333;
+}

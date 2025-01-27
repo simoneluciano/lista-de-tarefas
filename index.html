@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista de tarefas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Minha Lista de Tarefas</h1>
+        <input type="text"id="novaTarefa"placeholder="Adicione uma tarefa">
+        <button onclick="adicionarTarefa()">Adicionar</button>
+        <ul id="listarTarefas">
+            <li onclick="marcarConcluido(this)">Estudar mais <button class="remove" onclick="removerTarefa(this)">Remover</button></li>
+            <li onclick="marcarConcluido(this)">Ler sobre JavaScript <button class="remove" onclick="removerTarefa(this)">Remover</button></li>
+            <li onclick="marcarConcluido(this)">Praticar HTML e CSS <button class="remove" onclick="removerTarefa(this)">Remover</button></li>
+            <li onclick="marcarConcluido(this)">Assistir tutorial sobre APIs <button class="remove" onclick="removerTarefa(this)">Remover</button></li>
+        </ul>  
+        <script src="script.js"></script>
+    </body>
+</html> 
